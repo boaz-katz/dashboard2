@@ -1,0 +1,49 @@
+@import "~antd/dist/antd.css";
+.NavBar {
+  display: block;
+  background-color: blue;
+  height: 100px;
+  position: relative;
+}
+
+.MuiTableRow-head {
+  background-color: #e8f0f0;
+}
+.Projecttaleoutcome {
+  background-color: #ffebf5;
+}
+.Projecttaleincome {
+  background-color: #d9ffd9;
+}
+
+.numbercolersgred {
+  color: red;
+}
+.numbercolersgreen {
+  color: green;
+}
+
+.Tablebudjet {
+  margin-left: 296px;
+  position: absolute;
+  top: 215px;
+  bottom: 1px;
+}
+.foterdeshbord {
+  bottom: -1px;
+  display: block;
+  background-color: blue;
+  height: 100px;
+  width: 100%;
+}
+
+.shets_table_web {
+  width: 1000px;
+  height: 800px;
+}
+.ReportsbudgVexection_space_income {
+  background-color: rgb(33, 131, 243);
+}
+.ReportsbudgVexection_space_expenses {
+  background-color: rgb(233, 202, 207);
+}

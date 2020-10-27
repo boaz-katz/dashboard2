@@ -1,0 +1,23 @@
+{
+  "name": "dashbord-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dashbord-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dashpord-server.js",
+    "startmongo": "nodemon dashpord-server.js",
+    "heroku-postbuild": "cd client && npm i && npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.7",
+    "nodemon": "^2.0.4",
+    "react-scripts": "^2.1.8"
+  }
+}
